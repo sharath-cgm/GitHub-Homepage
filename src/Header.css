@@ -1,0 +1,68 @@
+body {
+  background: white;
+  overflow-x: hidden;
+}
+
+.header {
+  background: rgb(25,29,34);
+  height: 80px;
+}
+
+nav ul {
+  margin-top: 0px;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+@media all and (min-width: 445px) {
+  nav ul {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: left;    
+    align-items: center;
+  }
+}
+
+@media all and (min-width: 545px) {
+  nav ul li {
+    display: block;
+  }
+}
+nav ul a {
+  display: block;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-family: Futura, Trebuchet MS, Arial, sans-serif;
+  font-size: 0.8em;
+  color: #FEFCFB;
+  text-align: center;
+  padding: 14px 30px;
+  -webkit-transition: background 0.25s, -webkit-box-shadow 0.15s;
+  transition: background 0.25s, -webkit-box-shadow 0.15s;
+  transition: background 0.25s, box-shadow 0.15s;
+  transition: background 0.25s, box-shadow 0.15s, -webkit-box-shadow 0.15s;
+}
+nav ul a:hover {
+  color: #FEFCFB;
+  background: rgb(36,41,47);
+  -webkit-box-shadow: 0px 4px 0px 0px #b1ff64;
+          box-shadow: 0px 4px 0px 0px #b1ff64;
+}
+@media all and (min-width: 545px) {
+  nav ul a {
+    padding: 20px;
+  }
+}
+
+@media all and (min-width: 500px){
+.search ul{
+  -webkit-box-orient:horizontal;
+  justify-content: center;
+}
+}

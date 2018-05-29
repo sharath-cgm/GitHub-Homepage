@@ -1,0 +1,65 @@
+body{
+	background-image: url("background.jpg");
+
+}
+
+.form{
+	margin-top: 150px;
+	margin-right: 100px;
+	float: right;
+	background-color: white;
+	width: 400px;
+	padding-left: 30px;
+	padding-top: 30px;
+
+}
+
+p{
+	font-size: 12px;
+	color: 6b6a68;
+}
+
+.button {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+h1{
+	font-size: 70px;
+	font-weight: lighter;
+	color: white;
+}
+
+.text{
+	width: 400px;
+	margin-top: 80px;
+	margin-left: 150px;
+	float: left;
+
+}
+
+h3{
+	font-weight: lighter;
+	color: grey;
+
+}
+
+p.formtext{
+	text-align: center;
+}
+
+a.link{
+	color: blue;
+}
+
+a{
+	color: white;
+}
